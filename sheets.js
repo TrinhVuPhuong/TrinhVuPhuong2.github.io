@@ -69,11 +69,11 @@ function titleCase(str) {
     
     return result.join(' ');
   }
-
+var obj = getAllUrlParams();
 const output = document.querySelector('div.invoice');
 function maker() {
 
-    var obj = getAllUrlParams();
+    
 
     console.log(obj);
 
