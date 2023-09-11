@@ -113,3 +113,10 @@ function maker() {
  
 }
 maker();
+
+window.print();
+if(obj['thietbi']='Computer'){
+window.addEventListener('afterprint', function() {
+    window.close(); // Đóng trang sau khi in
+});
+}
