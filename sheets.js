@@ -115,7 +115,7 @@ function maker() {
 maker();
 
 window.print();
-if(obj['thietbi']='Computer'){
+if(obj['thietbi']='computer'){
 window.addEventListener('afterprint', function() {
     window.close(); // Đóng trang sau khi in
 });
