@@ -15,9 +15,19 @@ body {
     margin-bottom: 10px;
     padding: 0 20px;
     border: 2px solid black;
+    position: relative;
 }
 .tittle{
     font-weight:bold
+}
+
+
+img#qrimage {
+    padding: 8px 8px 0 0;
+    width: 40px;
+    position: absolute;
+    top: 0; /* Đặt top ở 0 để hình ảnh nằm ở phía trên cùng của phần tử cha */
+    right: 0;
 }
 
 @page {
