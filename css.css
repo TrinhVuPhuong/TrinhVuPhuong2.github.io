@@ -24,7 +24,7 @@ body {
 
 img#qrimage {
     padding: 8px 8px 0 0;
-    width: 40px;
+    width: 60px;
     position: absolute;
     top: 0; /* Đặt top ở 0 để hình ảnh nằm ở phía trên cùng của phần tử cha */
     right: 0;
