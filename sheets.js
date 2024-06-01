@@ -105,25 +105,25 @@ function maker() {
         p.textContent ="Số lượng: " + obj['quantity']+" Hộp";
         div.append(p);
 
-        p= document.createElement('p');
-        p.setAttribute("class","tittle")
+        //p= document.createElement('p');
+        //p.setAttribute("class","tittle")
 
-        const api ='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + obj['iddt']+ "_" + obj['idtua'] + "_" + obj['idkh'] + "_" + titleCase(decodeURIComponent(obj['customername'])) + "_" + obj['quantity']
+        //const api ='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + obj['iddt']+ "_" + obj['idtua'] + "_" + obj['idkh'] + "_" + titleCase(decodeURIComponent(obj['customername'])) + "_" + obj['quantity']
 
-                var img = document.createElement('img');
+                //var img = document.createElement('img');
 
                 // Thiết lập thuộc tính src
-                img.setAttribute('src', api);
+                //img.setAttribute('src', api);
 
                 // Thiết lập thuộc tính alt
-                img.setAttribute('alt', 'qrimage');
+                //img.setAttribute('alt', 'qrimage');
 
                 // Thiết lập thuộc tính id
-                img.setAttribute('id', 'qrimage');
+                //img.setAttribute('id', 'qrimage');
 
-                p.appendChild(img)
+                //p.appendChild(img)
 
-        div.appendChild(p);
+        //div.appendChild(p);
 
 
 
