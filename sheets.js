@@ -84,10 +84,26 @@ function maker() {
 
     
     
+    var header = document.getElementsByClassName("header")[0];
+    console.log(header);
     var div =document.createElement('div');
-    div.setAttribute("class", "details");
 
-        var p= document.createElement('p');
+    
+    var c = document.createElement('p');
+    // div.setAttribute("class","khoxuat");
+    //     p.setAttribute("class","header")
+    c .textContent =titleCase(decodeURIComponent(obj['khoxuat']))
+    console.log(c );
+    header.append(c );
+  
+
+    // output.append(div);
+
+
+    div.setAttribute("class", "details");
+        
+    var p = document.createElement("p");
+       
         p.textContent ="STT: " + obj['stt'];
         div.append(p);
 
